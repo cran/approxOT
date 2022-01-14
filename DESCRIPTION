@@ -1,7 +1,7 @@
 Package: approxOT
 Type: Package
 Title: Approximate and Exact Optimal Transport Methods
-Version: 1.0
+Version: 1.0.1
 Date: 2022-01-07
 Author: Eric Dunipace
 Maintainer: Eric Dunipace <edunipace@mail.harvard.edu>
@@ -15,6 +15,6 @@ BugReports: https://github.com/ericdunipace/approxOT/issues
 Suggests: testthat (>= 2.1.0), transport
 RoxygenNote: 7.1.1
 NeedsCompilation: yes
-Packaged: 2022-01-08 06:42:15 UTC; eifer
+Packaged: 2022-01-12 23:42:18 UTC; eifer
 Repository: CRAN
-Date/Publication: 2022-01-10 18:02:44 UTC
+Date/Publication: 2022-01-14 11:52:53 UTC

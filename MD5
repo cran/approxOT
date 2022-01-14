@@ -1,4 +1,4 @@
-ffc6da520b30cee455f03c91d446b5aa *DESCRIPTION
+0e09c8329eea4491e38e731aeb4e6748 *DESCRIPTION
 9fbdc692ea6fbaca50a7af68505b86fa *NAMESPACE
 6f99890dc04a2890d5e681cf2c38bebc *R/RcppExports.R
 38f63ac108c704c098adb38f4dc1bf1c *R/approxOT-package.R
@@ -9,7 +9,7 @@ ad36cef7a9aecde7345b10a8fd3869cf *R/transport_options.R
 36958fd303db2cb31128755e69856c3e *R/transport_plan.R
 311b0d3ad8f09ecc724c1592b5100036 *R/unload.R
 7f8b1cde45986aa4fe02f40495ce2d9a *R/wasserstein_distance.R
-63bde141206b385278d79f5c15cb50fb *README.md
+480ed25f463cf153da446d369cc30030 *README.md
 4c468a3dda16ec70573948ba2307bcf4 *inst/CITATION
 212874d8f2d98598293a57753726e73f *inst/include/approxOT_types.h
 eb436d6657691aa863a72656186276b0 *inst/include/cost.h
@@ -77,6 +77,6 @@ b4474ba7a38371a72a188fee5b0727c9 *src/trans_univariate_approx_pwr.cpp
 f42704eb6cd1acfd149d06a89c47640e *tests/testthat.R
 1a4516e061efac67730d2a9634504c05 *tests/testthat/test-general_hilbert_transport.R
 644760a1befa1c0fefd491c368ba6763 *tests/testthat/test-hilbert.R
-347f099ccb131e7e238686f18335404f *tests/testthat/test-transport_plan.R
+dd67d96328b4b3142862ee72a117d2c3 *tests/testthat/test-transport_plan.R
 d5ad857c16b7aae050f35c514ffe61ec *tests/testthat/test-transport_plan_multimarg.R
 452cccd2ab98505eb0e18c433ccf5ff8 *tests/testthat/test-wasserstein.R
