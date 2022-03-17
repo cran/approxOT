@@ -1,4 +1,4 @@
-0e09c8329eea4491e38e731aeb4e6748 *DESCRIPTION
+17dd4988b1c0c0176885aa3113f1ab4f *DESCRIPTION
 9fbdc692ea6fbaca50a7af68505b86fa *NAMESPACE
 6f99890dc04a2890d5e681cf2c38bebc *R/RcppExports.R
 38f63ac108c704c098adb38f4dc1bf1c *R/approxOT-package.R
@@ -71,7 +71,7 @@ b679a0824ac45bdc49bf90daed8c8510 *src/trans_randkhorn.cpp
 1d47e723a68bdaa7c8fbf2a4dde1b420 *src/trans_swap.cpp
 e4758bc972ae748200814c028b551124 *src/trans_univariate.cpp
 b4474ba7a38371a72a188fee5b0727c9 *src/trans_univariate_approx_pwr.cpp
-9b92dd5ad49a83fd5f7367116961b161 *src/transport.cpp
+3d404f4b5a8eadb3b4869e4ca30de75e *src/transport.cpp
 6ea5b2133bab675b93b3b6477af507da *src/utils.cpp
 6473d081693854b3ed38e877e1015295 *src/wasserstein.cpp
 f42704eb6cd1acfd149d06a89c47640e *tests/testthat.R
