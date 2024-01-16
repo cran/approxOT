@@ -30,15 +30,15 @@ transport_plan_given_C(
 
 \item{cost_b}{The cost matrix for the second sample with itself. Only used for unbiased Sinkhorn}
 
-\item{...}{Additional arguments for various methods:
+\item{...}{Additional arguments for various methods
 \itemize{
-\item{"niter":}{ The number of iterations to use for the entropically penalized optimal transport distances}
-\item{"epsilon":}{ The multiple of the median cost to use as a penalty in the entropically penalized optimal transport distances}
-\item{"unbiased":}{ If using Sinkhorn distances, should the distance be de-biased? (TRUE/FALSE)}
+\item "niter": The number of iterations to use for the entropically penalized optimal transport distances
+\item "epsilon": The multiple of the median cost to use as a penalty in the entropically penalized optimal transport distances
+\item"unbiased": If using Sinkhorn distances, should the distance be de-biased? (TRUE/FALSE)
 }}
 }
 \value{
-A transportation plan as a list with slots "from","to", and "mass".
+A transportation plan as an object of class "transport.plan", which is a list with slots "from","to", and "mass".
 }
 \description{
 Optimal transport plans given a pre-specified cost

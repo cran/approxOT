@@ -1,15 +1,13 @@
-citHeader("To cite approxOT in publications use:")
+citHeader("To cite 'approxOT' in publications use:")
 
-citEntry(
-  entry    = "Manual",
+bibentry(
+  bibtype  = "Manual",
   title    = "{approxOT}: approximate optimal transport",
-  author   = person(given="Eric A.",family = "Dunipace"),
-  year     = 2021,
-  note     = sprintf("R package version %s", 0.1),
-  url      = "https://github.com/ericdunipace/approxOT",
-  textVersion = paste(
-    "Dunipace, Eric A. (2021)",
-    "approxOT: approximate optimal transport.",
-      sprintf("R package version %s", 0.1),"."
-  )
+  author   = c(person("Eric A.", "Dunipace", 
+        role = c("aut", "cre"),
+        email = "edunipace@mail.harvard.edu",
+        comment = c(ORCID = "0000-0001-8909-213X"))),
+  year     = 2024,
+  note     = sprintf("R package version %s", 1.1),
+  url      = "https://github.com/ericdunipace/approxOT"
 )
