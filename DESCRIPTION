@@ -1,13 +1,17 @@
 Package: approxOT
 Type: Package
 Title: Approximate and Exact Optimal Transport Methods
-Version: 1.1
-Date: 2024-01-15
+Version: 1.1.1
+Date: 2024-01-30
 Authors@R: 
     c(person("Eric", "Dunipace", 
         role = c("aut", "cre"),
         email = "edunipace@mail.harvard.edu",
         comment = c(ORCID = "0000-0001-8909-213X")),
+    person(given = "Andrew",
+        family = "Johnson",
+        role = c("ctb"),
+        comment = c(ORCID = "0000-0001-7000-8065")),
     person(given = "Espen",
         family = "Bernton",
         role = c("ctb"),
@@ -43,8 +47,9 @@ Encoding: UTF-8
 RoxygenNote: 7.2.3
 URL: https://github.com/ericdunipace/approxOT
 NeedsCompilation: yes
-Packaged: 2024-01-16 06:40:21 UTC; eifer
+Packaged: 2024-01-30 23:49:03 UTC; eifer
 Author: Eric Dunipace [aut, cre] (<https://orcid.org/0000-0001-8909-213X>),
+  Andrew Johnson [ctb] (<https://orcid.org/0000-0001-7000-8065>),
   Espen Bernton [ctb] ('Hilbert Sort' adapted from their code),
   Mathieu Gerber [ctb] ('Hilbert Sort' adapted from their code),
   Pierre Jacob [ctb] ('Hilbert Sort' adapted from their code),
@@ -53,4 +58,4 @@ Author: Eric Dunipace [aut, cre] (<https://orcid.org/0000-0001-8909-213X>),
   Nicolas Bonneel [ctb] ('network simplex' algorithm adapted from their
     code)
 Repository: CRAN
-Date/Publication: 2024-01-16 11:50:02 UTC
+Date/Publication: 2024-01-31 00:00:02 UTC
