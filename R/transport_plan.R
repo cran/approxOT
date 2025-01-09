@@ -128,7 +128,7 @@ is.transport.plan <- function(tplan) {
 #' @param ... Additional arguments for various methods
 #' \itemize{
 #' \item "niter": The number of iterations to use for the entropically penalized optimal transport distances
-#' \item "epsilon": The multiple of the median cost to use as a penalty in the entropically penalized optimal transport distances
+#' \item "epsilon": The penalty for entropy penalized optimal transport distances. Should be > 0.
 #' \item"unbiased": If using Sinkhorn distances, should the distance be de-biased? (TRUE/FALSE)
 #' }
 #'
@@ -236,7 +236,7 @@ transport_plan_given_C <- function(mass_x, mass_y, p = 2,
 #' @param ... Additional arguments for various methods
 #' \itemize{
 #' \item"niter": The number of iterations to use for the entropically penalized optimal transport distances
-#' \item"epsilon": The multiple of the median cost to use as a penalty in the entropically penalized optimal transport distances
+#' \item"epsilon": The penalty for entropy penalized optimal transport distances. Should be > 0.
 #' \item"unbiased": If using Sinkhorn distances, should the distance be de-biased? (TRUE/FALSE)
 #' \item"nboot": If using sliced Wasserstein distances, specify the number of Monte Carlo samples
 #' }
@@ -260,6 +260,7 @@ transport_plan <- function(X, Y, a = NULL, b = NULL, p = 2, ground_p = 2,
   
   obs <- match.arg(observation.orientation)
   method <- match.arg(method)
+  if(method == "exact") method <- "networkflow"
   
   if (!is.matrix(X)) {
     X <- as.matrix(X)
